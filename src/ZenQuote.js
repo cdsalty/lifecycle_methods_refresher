@@ -10,6 +10,7 @@ class ZenQuote extends Component {
     // load data
     axios.get("https://api.github.com/zen").then(response => {
       // console.log(response); // learn from this that what we actually is response.data
+      // setTimeout(function() {}, 3000);
       this.setState({
         quote: response.data
       });
