@@ -1,12 +1,17 @@
 import React, { Component } from "react";
-import ZenQuote from "./ZenQuote";
+// import GithubUserInfo from "./ZenQuoteAsync-Await";
+import GitHubUserFinder from "./GitHubUserFinder";
+// import ZenQuote from "./ZenQuote";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ZenQuote />
+        {/* <ZenQuote /> */}
+        <GitHubUserFinder username="facebook" />
+        <GitHubUserFinder username="colt" />
+        <GitHubUserFinder username="cdsalty" />
       </div>
     );
   }
