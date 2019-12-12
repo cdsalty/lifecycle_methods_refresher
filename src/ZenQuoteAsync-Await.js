@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class GithubUserInfo extends Component {
+class GitHubUserFinder extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,4 +30,4 @@ class GithubUserInfo extends Component {
   }
 }
 
-export default GithubUserInfo;
+export default GitHubUserFinder;
